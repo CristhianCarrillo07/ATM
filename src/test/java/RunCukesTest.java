@@ -4,6 +4,6 @@ import cucumber.api.SnippetType;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = "pretty", snippets = SnippetType.CAMELCASE, dryRun = true)
+@CucumberOptions(plugin = {"pretty","html:out"}, snippets = SnippetType.CAMELCASE, dryRun = true)
 public class RunCukesTest {
 }
