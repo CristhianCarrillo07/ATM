@@ -1,4 +1,4 @@
-package hooks;
+package steps.hooks;
 
 import cucumber.api.Scenario;
 import org.junit.After;

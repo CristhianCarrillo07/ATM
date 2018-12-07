@@ -1,8 +1,9 @@
-package nicebank;
+package steps.nicebank;
 
 import cucumber.api.Transform;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
+import nicebank.Money;
 import org.junit.Assert;
 import support.KnowsTheDomain;
 import transforms.MoneyConverter;

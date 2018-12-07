@@ -1,11 +1,7 @@
-package nicebank;
+package steps.nicebank;
 
-import cucumber.api.Transform;
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
-import org.junit.Assert;
 import support.KnowsTheDomain;
-import transforms.MoneyConverter;
 
 public class TellerSteps {
 

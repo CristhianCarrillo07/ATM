@@ -4,6 +4,9 @@ import cucumber.api.SnippetType;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"pretty","html:out"}, snippets = SnippetType.CAMELCASE, dryRun = true)
+@CucumberOptions(features = "classpath:cash_withdrawal.feature",
+        glue = {"classpath:steps"},
+        plugin = {"pretty","html:out"},
+        snippets = SnippetType.CAMELCASE)
 public class RunCukesTest {
 }
